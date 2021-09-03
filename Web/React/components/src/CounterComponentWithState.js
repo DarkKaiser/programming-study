@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 // 클래스형 컴포넌트, state 사용
-class CounterComponent extends Component {
+class CounterComponentWithState extends Component {
     constructor(props) {
         super(props);
 
@@ -47,4 +47,4 @@ class CounterComponent extends Component {
     }
 }
 
-export default CounterComponent;
+export default CounterComponentWithState;
