@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const IterationSample = () => {
     const names = ['눈사람', '얼음', '눈', '바람'];
