@@ -1,4 +1,3 @@
-import './App.css';
 import IterationSample from './IterationSample';
 
 function App() {
