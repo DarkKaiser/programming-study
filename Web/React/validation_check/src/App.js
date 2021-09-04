@@ -1,4 +1,3 @@
-import './App.css';
 import ValidationSample from './ValidationSample';
 
 function App() {
