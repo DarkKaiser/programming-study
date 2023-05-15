@@ -3,6 +3,7 @@ import random
 MIN_NUMBER = 1
 MAX_NUMBER = 100
 
+
 def main():
     retry_count = 0
     max_retry_count = 6
@@ -31,6 +32,7 @@ def main():
         print(f"정답입니다.")
     else:
         print(f"실패하였습니다. 정답은 {guess_number} 입니다.")
+
 
 if __name__ == '__main__':
     main()
