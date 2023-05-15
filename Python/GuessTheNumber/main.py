@@ -12,7 +12,7 @@ def main():
     print(f"입력 가능한 총 횟수는 {max_retry_count}회입니다.", end="\n\n")
 
     input_number = ""
-    while retry_count < 6:
+    while retry_count < max_retry_count:
         print(f"{MIN_NUMBER} ~ {MAX_NUMBER} 사이의 숫자를 입력하세요: ", end="")
 
         input_number = int(input())
