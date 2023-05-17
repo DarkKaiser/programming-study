@@ -137,10 +137,13 @@ def main():
 
             if len(missed_letters) == (len(HANGMANPICS) - 1):
                 display_board(missed_letters, correct_letters, secret_word)
-                print(f'실패하였습니다!\n추측 실패 문자는 \'{missed_letters}\', 추측 성공 문자는 \'{correct_letters}\', 시크릿 단어는 \'{secret_word}\'이었습니다!')
+                print(
+                    f'실패하였습니다!\n추측 실패 문자는 \'{missed_letters}\', 추측 성공 문자는 \'{correct_letters}\', 시크릿 단어는 \'{secret_word}\'이었습니다!')
                 game_is_done = True
 
+        if game_is_done is True:
             if play_again() is True:
+                missed_letters = ''
                 correct_letters = ''
                 secret_word = get_random_word(words)
                 game_is_done = False
