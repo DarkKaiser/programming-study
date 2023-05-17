@@ -140,9 +140,7 @@ def main():
                 print(f'실패하였습니다!\n추측 실패 문자는 \'{missed_letters}\', 추측 성공 문자는 \'{correct_letters}\', 시크릿 단어는 \'{secret_word}\'이었습니다!')
                 game_is_done = True
 
-        if game_is_done is True:
             if play_again() is True:
-                missed_letters = ''
                 correct_letters = ''
                 secret_word = get_random_word(words)
                 game_is_done = False
@@ -152,3 +150,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+import os
